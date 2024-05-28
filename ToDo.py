@@ -4,7 +4,7 @@ from tkinter import simpledialog
 class ToDoList:
     def __init__(self, master):
         self.master = master
-        master.title("To-Do List")
+        master.title("To-Do")
 
        
         self.label = tk.Label(master, text="Tasks:")
