@@ -17,7 +17,7 @@ def divide():
 
 
 root = tk.Tk()
-root.title("Simple Calculator")
+root.title("Calculator")
 root.grid_columnconfigure(0, weight=1)
 root.grid_columnconfigure(1, weight=1)
 root.grid_rowconfigure(0, weight=1)
