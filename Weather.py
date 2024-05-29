@@ -50,11 +50,3 @@ weather_label.pack(pady=5)
 
 temperature_label = tk.Label(root, text="")
 temperature_label.pack(pady=5)
-
-<<<<<<< HEAD
-
-root.mainloop()
-=======
-# Start the main event loop
-root.mainloop()
->>>>>>> 9ab7a00543e1ad40eac2cc340c021b48e14b4e7f
