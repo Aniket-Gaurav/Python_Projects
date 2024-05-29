@@ -28,29 +28,28 @@ def get_weather():
         weather_label.config(text="Error: Could not connect to the API")
         temperature_label.config(text="")
 
-# Create the main window
 root = tk.Tk()
 root.title("Weather App")
-root.geometry("300x200")  # Set the initial size of the window
-root.resizable(False, False)  # Disable window resizing
+root.geometry("300x200")  
+root.resizable(False, False)  
 
-# Create a label and entry field for the city
+
 city_label = tk.Label(root, text="Enter city name:")
 city_label.pack(pady=10)
 
 city_entry = tk.Entry(root)
 city_entry.pack(pady=5)
 
-# Create a button to get the weather
+
 get_weather_button = tk.Button(root, text="Get Weather", command=get_weather)
 get_weather_button.pack(pady=10)
 
-# Create labels to display the weather information
+
 weather_label = tk.Label(root, text="")
 weather_label.pack(pady=5)
 
 temperature_label = tk.Label(root, text="")
 temperature_label.pack(pady=5)
 
-# Start the main event loop
+
 root.mainloop()
