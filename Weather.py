@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 def get_weather():
     city = city_entry.get()
-    api_key = "768abe60a80d3d018c404486e3287509"
+    api_key = "768abe60a80d3d01***********"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
     try:
@@ -51,5 +51,10 @@ weather_label.pack(pady=5)
 temperature_label = tk.Label(root, text="")
 temperature_label.pack(pady=5)
 
+<<<<<<< HEAD
 
 root.mainloop()
+=======
+# Start the main event loop
+root.mainloop()
+>>>>>>> 9ab7a00543e1ad40eac2cc340c021b48e14b4e7f
