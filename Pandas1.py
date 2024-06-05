@@ -8,6 +8,7 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+
 print(df['Sales'])
 
 high_sales = df[df['Sales']>200]
