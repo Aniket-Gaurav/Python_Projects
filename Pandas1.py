@@ -2,7 +2,7 @@ import pandas as pd
 
 data = {
     'Product' : ['A','B','C','D'],
-    'Sales' : [150,200,300,400],
+    'Sales' : [150,200,600,900],
     'Profit' : [50,70,100,130]
 }
 
@@ -12,6 +12,7 @@ print(df)
 print(df['Sales'])
 
 high_sales = df[df['Sales']>200]
+
 print(high_sales)
 
 df['Revenue'] = df['Sales'] * df['Profit']
