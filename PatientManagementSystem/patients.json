@@ -1,0 +1,23 @@
+{
+    "P001": {
+        "Name": "John Doe",
+        "Age": "30",
+        "Gender": "M",
+        "Contact": "1234567890",
+        "Address": "123 Elm Street, Springfield"
+    },
+    "P002": {
+        "Name": "Jane Smith",
+        "Age": "25",
+        "Gender": "F",
+        "Contact": "9876543210",
+        "Address": "456 Oak Avenue, Metropolis"
+    },
+    "P003": {
+        "Name": "Alice Johnson",
+        "Age": "40",
+        "Gender": "F",
+        "Contact": "+11234567890",
+        "Address": "#78 Maple Drive, Gotham City"
+    }
+}
